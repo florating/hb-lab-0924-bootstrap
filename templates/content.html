@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Content!</title>
+    <!-- Load Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="/exercises/bootstrap/static/styles.css">
+  </head>
+  <body>
+    <div class="container">
+        <img src="exercises/bootstrap/static/bootstrap.png">
+        <div class="col-12 col-lg-6 offset-lg-3" id="main">Main</div>
+
+    </div>
+    <!-- A row containing the main section content in a centered column
+        (Hint: you can use an offset or a centering utility with Bootstrap).
+        
+        A row containing three columns with the features information.
+        
+        Add Bootstrap icons to the headers of the columns (Hint: you can search for icons in the Bootstrap Icon docs).
+        
+        A row with a table that’s only visible on medium and large devices.
+        
+        Add the image of your choice to the top of the page. -->
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col col-lg-2">
+              <i class="bi bi-bootstrap"></i>
+                <p>2 of three</p>
+            </div>
+            <div class="col col-lg-2">
+              <i class="bi bi-bootstrap"></i>
+                <p>2 of three</p>
+            </div>
+            <div class="col col-lg-2">
+              <i class="bi bi-bootstrap"></i>
+                <p>3 of 3</p>
+            </div>
+        <div class="row d-none d-lg-block">I am only hidden on screens smaller than lg!</div>
+
+        <div class="container-sm">100% wide until small breakpoint</div>
+        <div class="container-md">100% wide until medium breakpoint</div>
+        <div class="container-lg">100% wide until large breakpoint</div>
+        <div class="container-xl">100% wide until extra large breakpoint</div>
+        <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+  </body>
+</html>
